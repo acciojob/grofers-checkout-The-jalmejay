@@ -16,7 +16,7 @@ const getSum = () => {
         existingTotalRow.remove();
     }
 	const newRow = document.createElement('tr');
-    newRow.setAttribute('id', 'total-row');
+    newRow.setAttribute('id', 'ans');
 
 	const totalLabel = document.createElement('td');
     totalLabel.textContent = 'Total = ';
